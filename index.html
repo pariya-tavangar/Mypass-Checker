@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mypass Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mypass Checker</h1>
+        <p class="subtitle">Let's see how secure your password is :)</p>
+        
+        <div class="password-container">
+            <input type="password" class="password-input" id="passwordInput" placeholder="Enter your password" autocomplete="off">
+            <button class="toggle-password" id="togglePassword">🙈</button>
+        </div>
+        
+        <div class="strength-meter">
+            <div class="strength-bar" id="strengthBar"></div>
+        </div>
+        
+        <div class="strength-text" id="strengthText">Enter a password to check its strength</div>
+        
+        <div class="criteria-list">
+            <div class="criterion" id="lengthCriterion">
+                <i>❌</i> At least 8 characters
+            </div>
+            <div class="criterion" id="uppercaseCriterion">
+                <i>❌</i> Contains uppercase letters
+            </div>
+            <div class="criterion" id="lowercaseCriterion">
+                <i>❌</i> Contains lowercase letters
+            </div>
+            <div class="criterion" id="numberCriterion">
+                <i>❌</i> Contains numbers
+            </div>
+            <div class="criterion" id="specialCriterion">
+                <i>❌</i> Contains special characters
+            </div>
+        </div>
+        
+        <div class="feedback" id="feedback">
+            <h3>Suggestions to improve your password:</h3>
+            <ul class="feedback-list" id="feedbackList"></ul>
+        </div>
+        
+        <div class="score-display">
+            <span>Security Score:</span>
+            <span class="score-value" id="scoreValue">0/5</span>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
