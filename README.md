@@ -1,6 +1,13 @@
 # Mypass Checker
 
-A simple web tool to check how strong your passwords are.
+A simple local tool to see how strong your password is. 
+<br> <br>
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+
+![img](project-cover.png)
 
 ## Features
 
@@ -8,16 +15,23 @@ A simple web tool to check how strong your passwords are.
 - Checklist of password requirements
 - Helpful improvement suggestions
 - Show/hide password toggle
+<br>
 
-
-## Strength Levels
-
-- **0-1/5**: Very Weak (Red)
-- **2/5**: Weak (Orange)
-- **3/5**: Fair (Yellow)
-- **4/5**: Strong (Green)
-- **5/5**: Very Strong (Dark Green)
+### Quick Start
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/nasa-apod-streamlit.git
+   streamlit run main.py
+   ```
+<br>
 
 ## Installation
-
 No specific requirement needed.
+
+<br>
+
+## Countribute 🤝
+Feel free to contribute
+<br><br>
+
+
