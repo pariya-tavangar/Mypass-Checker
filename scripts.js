@@ -18,7 +18,7 @@
         togglePassword.addEventListener('click', function() {
             const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
             passwordInput.setAttribute('type', type);
-            this.textContent = type === 'password' ? '👁️' : '🔒';
+            this.textContent = type === 'password' ? '🙈' : '🙉';
         });
         
         // Check password strength in real-time
